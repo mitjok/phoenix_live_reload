@@ -40,7 +40,7 @@ defmodule PhoenixLiveReload.Mixfile do
 
   defp deps do
     [
-      {:phoenix, "~> 1.4"},
+      {:phoenix, "~> 1.6.0-dev", github: "phoenixframework/phoenix"},
       {:ex_doc, "~> 0.19", only: :docs},
       {:file_system, "~> 0.2.1 or ~> 0.3"},
       {:jason, "~> 1.0", only: :test}
